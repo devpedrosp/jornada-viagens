@@ -12,6 +12,8 @@
   display: block;
   background-color: transparent;
   position: static;
+  margin-bottom: 24px;
+  padding: 0;
 }
 
 .card header p {
@@ -21,7 +23,7 @@
 
 .card header h3 {
   font-size: 40px;
-  font-weight: var(--titles-weigth);
+  font-weight: var(--titles-weight);
   margin: 8px 0 0;
 }
 
@@ -29,4 +31,10 @@
   display: inline-block;
   font-size: 32px;
   margin-top: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+  .button:hover {
+    background-color: var(--primary-color);
+  }
 }
