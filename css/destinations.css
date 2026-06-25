@@ -36,7 +36,7 @@
 .destinations .button {
   width: 100%;
 }
-
+/* Responsividade */
 @media screen and (min-width: 768px) {
   .destinations {
     width: 648px;
