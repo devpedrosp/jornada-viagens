@@ -20,11 +20,7 @@
   text-align: center;
 }
 .offers-cards .card header {
-  display: block;
-  background-color: transparent;
-  position: static;
   margin-bottom: 24px;
-  padding: 0;
 }
 
 .offers-cards .card header p {
